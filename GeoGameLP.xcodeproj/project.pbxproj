@@ -7,7 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D1170DF52BFCCFE300B0899D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1170DF42BFCCFE300B0899D /* ViewController.swift */; };
+		C4A423BC2D1F8FD5008A9A46 /* ShopModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A423BB2D1F8FD5008A9A46 /* ShopModel.swift */; };
+		C4A423BE2D1F8FEB008A9A46 /* ResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A423BD2D1F8FEB008A9A46 /* ResponseModel.swift */; };
+		C4A423C02D1F904D008A9A46 /* RequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A423BF2D1F904D008A9A46 /* RequestModel.swift */; };
+		C4A423C22D1F905D008A9A46 /* CharModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A423C12D1F905D008A9A46 /* CharModel.swift */; };
+		C4A423C42D1F9067008A9A46 /* ErrorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A423C32D1F9067008A9A46 /* ErrorModel.swift */; };
+		C4A423C62D1F90E8008A9A46 /* CGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A423C52D1F90E8008A9A46 /* CGPoint.swift */; };
+		C4A423C82D1F9120008A9A46 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A423C72D1F9120008A9A46 /* Double.swift */; };
+		C4A423CA2D1F9133008A9A46 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A423C92D1F9133008A9A46 /* UIImage.swift */; };
+		C4A423CC2D1F914A008A9A46 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A423CB2D1F914A008A9A46 /* Constants.swift */; };
+		C4A423D62D1F92E1008A9A46 /* Treasure.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A423D52D1F92E1008A9A46 /* Treasure.swift */; };
+		C4A423D82D1F9459008A9A46 /* CALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A423D72D1F9459008A9A46 /* CALayer.swift */; };
+		D1170DF52BFCCFE300B0899D /* UIStoryboard&UIVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1170DF42BFCCFE300B0899D /* UIStoryboard&UIVC.swift */; };
 		D1170DF72BFCD17300B0899D /* GoogleMapsPrivacy.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D1170DF62BFCD17300B0899D /* GoogleMapsPrivacy.bundle */; };
 		D118214A2BFCAAC4002EC3E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11821492BFCAAC4002EC3E4 /* AppDelegate.swift */; };
 		D118214C2BFCAAC4002EC3E4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D118214B2BFCAAC4002EC3E4 /* SceneDelegate.swift */; };
@@ -38,7 +49,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		D1170DF42BFCCFE300B0899D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C4A423BB2D1F8FD5008A9A46 /* ShopModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopModel.swift; sourceTree = "<group>"; };
+		C4A423BD2D1F8FEB008A9A46 /* ResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseModel.swift; sourceTree = "<group>"; };
+		C4A423BF2D1F904D008A9A46 /* RequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestModel.swift; sourceTree = "<group>"; };
+		C4A423C12D1F905D008A9A46 /* CharModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharModel.swift; sourceTree = "<group>"; };
+		C4A423C32D1F9067008A9A46 /* ErrorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorModel.swift; sourceTree = "<group>"; };
+		C4A423C52D1F90E8008A9A46 /* CGPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGPoint.swift; sourceTree = "<group>"; };
+		C4A423C72D1F9120008A9A46 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		C4A423C92D1F9133008A9A46 /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		C4A423CB2D1F914A008A9A46 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C4A423D52D1F92E1008A9A46 /* Treasure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Treasure.swift; sourceTree = "<group>"; };
+		C4A423D72D1F9459008A9A46 /* CALayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CALayer.swift; sourceTree = "<group>"; };
+		D1170DF42BFCCFE300B0899D /* UIStoryboard&UIVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStoryboard&UIVC.swift"; sourceTree = "<group>"; };
 		D1170DF62BFCD17300B0899D /* GoogleMapsPrivacy.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleMapsPrivacy.bundle; sourceTree = "<group>"; };
 		D11821462BFCAAC4002EC3E4 /* GeoGameLP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoGameLP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D11821492BFCAAC4002EC3E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -68,6 +90,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C4A423B12D1F8EEC008A9A46 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				C4A423B32D1F8F05008A9A46 /* Models */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		C4A423B32D1F8F05008A9A46 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C4A423BB2D1F8FD5008A9A46 /* ShopModel.swift */,
+				C4A423BD2D1F8FEB008A9A46 /* ResponseModel.swift */,
+				C4A423BF2D1F904D008A9A46 /* RequestModel.swift */,
+				C4A423C12D1F905D008A9A46 /* CharModel.swift */,
+				C4A423C32D1F9067008A9A46 /* ErrorModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C4A423B52D1F8F2E008A9A46 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C4A423C52D1F90E8008A9A46 /* CGPoint.swift */,
+				C4A423C72D1F9120008A9A46 /* Double.swift */,
+				C4A423D72D1F9459008A9A46 /* CALayer.swift */,
+				C4A423C92D1F9133008A9A46 /* UIImage.swift */,
+				C4A423CB2D1F914A008A9A46 /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		D118213D2BFCAAC4002EC3E4 = {
 			isa = PBXGroup;
 			children = (
@@ -90,10 +144,13 @@
 			children = (
 				D118214B2BFCAAC4002EC3E4 /* SceneDelegate.swift */,
 				D11821492BFCAAC4002EC3E4 /* AppDelegate.swift */,
-				D1170DF42BFCCFE300B0899D /* ViewController.swift */,
+				D1170DF42BFCCFE300B0899D /* UIStoryboard&UIVC.swift */,
+				C4A423B52D1F8F2E008A9A46 /* Helpers */,
+				C4A423B12D1F8EEC008A9A46 /* Networking */,
 				D118214F2BFCAAC4002EC3E4 /* Main.storyboard */,
 				D11821522BFCAAC5002EC3E4 /* Assets.xcassets */,
 				D11821542BFCAAC5002EC3E4 /* LaunchScreen.storyboard */,
+				C4A423D52D1F92E1008A9A46 /* Treasure.swift */,
 				D11821572BFCAAC5002EC3E4 /* Info.plist */,
 				D1170DF62BFCD17300B0899D /* GoogleMapsPrivacy.bundle */,
 			);
@@ -198,8 +255,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				D118214A2BFCAAC4002EC3E4 /* AppDelegate.swift in Sources */,
+				C4A423CA2D1F9133008A9A46 /* UIImage.swift in Sources */,
+				C4A423BC2D1F8FD5008A9A46 /* ShopModel.swift in Sources */,
 				D118214C2BFCAAC4002EC3E4 /* SceneDelegate.swift in Sources */,
-				D1170DF52BFCCFE300B0899D /* ViewController.swift in Sources */,
+				C4A423BE2D1F8FEB008A9A46 /* ResponseModel.swift in Sources */,
+				C4A423C62D1F90E8008A9A46 /* CGPoint.swift in Sources */,
+				C4A423D62D1F92E1008A9A46 /* Treasure.swift in Sources */,
+				D1170DF52BFCCFE300B0899D /* UIStoryboard&UIVC.swift in Sources */,
+				C4A423C02D1F904D008A9A46 /* RequestModel.swift in Sources */,
+				C4A423C42D1F9067008A9A46 /* ErrorModel.swift in Sources */,
+				C4A423C82D1F9120008A9A46 /* Double.swift in Sources */,
+				C4A423C22D1F905D008A9A46 /* CharModel.swift in Sources */,
+				C4A423D82D1F9459008A9A46 /* CALayer.swift in Sources */,
+				C4A423CC2D1F914A008A9A46 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
