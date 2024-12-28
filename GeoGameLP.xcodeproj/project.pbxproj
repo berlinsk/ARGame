@@ -26,6 +26,9 @@
 		C4A423E42D1F9D8F008A9A46 /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A423E32D1F9D8F008A9A46 /* RequestManager.swift */; };
 		C4A423E92D1F9FBE008A9A46 /* GameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A423E82D1F9FBE008A9A46 /* GameVC.swift */; };
 		C4A423EB2D1FA104008A9A46 /* GameMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A423EA2D1FA104008A9A46 /* GameMapVC.swift */; };
+		C4A423ED2D1FA27E008A9A46 /* ShopsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A423EC2D1FA27E008A9A46 /* ShopsVC.swift */; };
+		C4A423EF2D1FA2A2008A9A46 /* ShopsMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A423EE2D1FA2A2008A9A46 /* ShopsMapVC.swift */; };
+		C4A423F12D1FA2BB008A9A46 /* ShopTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A423F02D1FA2BB008A9A46 /* ShopTableViewCell.swift */; };
 		D1170DF52BFCCFE300B0899D /* UIStoryboard&UIVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1170DF42BFCCFE300B0899D /* UIStoryboard&UIVC.swift */; };
 		D1170DF72BFCD17300B0899D /* GoogleMapsPrivacy.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D1170DF62BFCD17300B0899D /* GoogleMapsPrivacy.bundle */; };
 		D118214A2BFCAAC4002EC3E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11821492BFCAAC4002EC3E4 /* AppDelegate.swift */; };
@@ -76,6 +79,9 @@
 		C4A423E32D1F9D8F008A9A46 /* RequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
 		C4A423E82D1F9FBE008A9A46 /* GameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameVC.swift; sourceTree = "<group>"; };
 		C4A423EA2D1FA104008A9A46 /* GameMapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameMapVC.swift; sourceTree = "<group>"; };
+		C4A423EC2D1FA27E008A9A46 /* ShopsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopsVC.swift; sourceTree = "<group>"; };
+		C4A423EE2D1FA2A2008A9A46 /* ShopsMapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopsMapVC.swift; sourceTree = "<group>"; };
+		C4A423F02D1FA2BB008A9A46 /* ShopTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopTableViewCell.swift; sourceTree = "<group>"; };
 		D1170DF42BFCCFE300B0899D /* UIStoryboard&UIVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStoryboard&UIVC.swift"; sourceTree = "<group>"; };
 		D1170DF62BFCD17300B0899D /* GoogleMapsPrivacy.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleMapsPrivacy.bundle; sourceTree = "<group>"; };
 		D11821462BFCAAC4002EC3E4 /* GeoGameLP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoGameLP.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -185,6 +191,9 @@
 				D1170DF42BFCCFE300B0899D /* UIStoryboard&UIVC.swift */,
 				C4A423E82D1F9FBE008A9A46 /* GameVC.swift */,
 				C4A423EA2D1FA104008A9A46 /* GameMapVC.swift */,
+				C4A423EC2D1FA27E008A9A46 /* ShopsVC.swift */,
+				C4A423EE2D1FA2A2008A9A46 /* ShopsMapVC.swift */,
+				C4A423F02D1FA2BB008A9A46 /* ShopTableViewCell.swift */,
 				C4A423B52D1F8F2E008A9A46 /* Helpers */,
 				C4A423B12D1F8EEC008A9A46 /* Networking */,
 				D118214F2BFCAAC4002EC3E4 /* Main.storyboard */,
@@ -303,6 +312,7 @@
 				D118214C2BFCAAC4002EC3E4 /* SceneDelegate.swift in Sources */,
 				C4A423BE2D1F8FEB008A9A46 /* ResponseModel.swift in Sources */,
 				C4A423DA2D1F9AC6008A9A46 /* URLBuilder.swift in Sources */,
+				C4A423ED2D1FA27E008A9A46 /* ShopsVC.swift in Sources */,
 				C4A423EB2D1FA104008A9A46 /* GameMapVC.swift in Sources */,
 				C4A423C62D1F90E8008A9A46 /* CGPoint.swift in Sources */,
 				C4A423E22D1F9D7D008A9A46 /* AlamofireRequest.swift in Sources */,
@@ -313,9 +323,11 @@
 				C4A423C42D1F9067008A9A46 /* ErrorModel.swift in Sources */,
 				C4A423E42D1F9D8F008A9A46 /* RequestManager.swift in Sources */,
 				C4A423C82D1F9120008A9A46 /* Double.swift in Sources */,
+				C4A423F12D1FA2BB008A9A46 /* ShopTableViewCell.swift in Sources */,
 				C4A423C22D1F905D008A9A46 /* CharModel.swift in Sources */,
 				C4A423D82D1F9459008A9A46 /* CALayer.swift in Sources */,
 				C4A423CC2D1F914A008A9A46 /* Constants.swift in Sources */,
+				C4A423EF2D1FA2A2008A9A46 /* ShopsMapVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
