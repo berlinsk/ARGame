@@ -1,0 +1,50 @@
+{
+  "pins" : [
+    {
+      "identity" : "alamofire",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Alamofire/Alamofire",
+      "state" : {
+        "revision" : "bc268c28fb170f494de9e9927c371b8342979ece",
+        "version" : "5.7.1"
+      }
+    },
+    {
+      "identity" : "alamofirenetworkactivitylogger",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/konkab/AlamofireNetworkActivityLogger",
+      "state" : {
+        "revision" : "8db9d4e27176905298e7215e3d800e349cdfa30b",
+        "version" : "3.4.0"
+      }
+    },
+    {
+      "identity" : "easy-alert",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/bryanbarreto/easy-alert",
+      "state" : {
+        "revision" : "812ab143c55de2678c5c81002c4d00f7d718f341",
+        "version" : "1.0.0"
+      }
+    },
+    {
+      "identity" : "ios-maps-sdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/googlemaps/ios-maps-sdk",
+      "state" : {
+        "revision" : "bd392d7d844b49ec6795871a3c25edd01ab839f2",
+        "version" : "8.4.0"
+      }
+    },
+    {
+      "identity" : "svprogresshud",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SVProgressHUD/SVProgressHUD",
+      "state" : {
+        "revision" : "c33f7c775ba7feea6047a1fc3257f2e5863b44f7",
+        "version" : "2.3.1"
+      }
+    }
+  ],
+  "version" : 2
+}

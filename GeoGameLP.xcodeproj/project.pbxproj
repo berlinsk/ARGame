@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D1170DF52BFCCFE300B0899D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1170DF42BFCCFE300B0899D /* ViewController.swift */; };
+		D1170DF72BFCD17300B0899D /* GoogleMapsPrivacy.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D1170DF62BFCD17300B0899D /* GoogleMapsPrivacy.bundle */; };
+		D118214A2BFCAAC4002EC3E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11821492BFCAAC4002EC3E4 /* AppDelegate.swift */; };
+		D118214C2BFCAAC4002EC3E4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D118214B2BFCAAC4002EC3E4 /* SceneDelegate.swift */; };
+		D11821512BFCAAC4002EC3E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D118214F2BFCAAC4002EC3E4 /* Main.storyboard */; };
+		D11821532BFCAAC5002EC3E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D11821522BFCAAC5002EC3E4 /* Assets.xcassets */; };
+		D11821562BFCAAC5002EC3E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D11821542BFCAAC5002EC3E4 /* LaunchScreen.storyboard */; };
+		D14192322BFE44CB009841FF /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = D14192312BFE44CB009841FF /* Alamofire */; };
+		D1C3B6542BFE1CC6006DE0D5 /* AlamofireNetworkActivityLogger in Frameworks */ = {isa = PBXBuildFile; productRef = D1C3B6532BFE1CC6006DE0D5 /* AlamofireNetworkActivityLogger */; };
+		D1C3B6672BFE1F2B006DE0D5 /* SVProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = D1C3B6662BFE1F2B006DE0D5 /* SVProgressHUD */; };
+		D1C3B6712BFE3116006DE0D5 /* EasyAleert in Frameworks */ = {isa = PBXBuildFile; productRef = D1C3B6702BFE3116006DE0D5 /* EasyAleert */; };
+		D1D616562BFCCD6500B9A42A /* GoogleMaps in Frameworks */ = {isa = PBXBuildFile; productRef = D1D616552BFCCD6500B9A42A /* GoogleMaps */; };
+		D1D616582BFCCD6500B9A42A /* GoogleMapsBase in Frameworks */ = {isa = PBXBuildFile; productRef = D1D616572BFCCD6500B9A42A /* GoogleMapsBase */; };
+		D1D6165A2BFCCD6500B9A42A /* GoogleMapsCore in Frameworks */ = {isa = PBXBuildFile; productRef = D1D616592BFCCD6500B9A42A /* GoogleMapsCore */; };
+		D1D6165C2BFCCD6500B9A42A /* GoogleMapsM4B in Frameworks */ = {isa = PBXBuildFile; productRef = D1D6165B2BFCCD6500B9A42A /* GoogleMapsM4B */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D1C3B65F2BFE1DC8006DE0D5 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D1170DF42BFCCFE300B0899D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D1170DF62BFCD17300B0899D /* GoogleMapsPrivacy.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleMapsPrivacy.bundle; sourceTree = "<group>"; };
+		D11821462BFCAAC4002EC3E4 /* GeoGameLP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoGameLP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D11821492BFCAAC4002EC3E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D118214B2BFCAAC4002EC3E4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D11821502BFCAAC4002EC3E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D11821522BFCAAC5002EC3E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D11821552BFCAAC5002EC3E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D11821572BFCAAC5002EC3E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D11821432BFCAAC4002EC3E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D14192322BFE44CB009841FF /* Alamofire in Frameworks */,
+				D1D616582BFCCD6500B9A42A /* GoogleMapsBase in Frameworks */,
+				D1D6165A2BFCCD6500B9A42A /* GoogleMapsCore in Frameworks */,
+				D1D616562BFCCD6500B9A42A /* GoogleMaps in Frameworks */,
+				D1C3B6672BFE1F2B006DE0D5 /* SVProgressHUD in Frameworks */,
+				D1C3B6712BFE3116006DE0D5 /* EasyAleert in Frameworks */,
+				D1C3B6542BFE1CC6006DE0D5 /* AlamofireNetworkActivityLogger in Frameworks */,
+				D1D6165C2BFCCD6500B9A42A /* GoogleMapsM4B in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D118213D2BFCAAC4002EC3E4 = {
+			isa = PBXGroup;
+			children = (
+				D11821482BFCAAC4002EC3E4 /* GeoGameLP */,
+				D11821472BFCAAC4002EC3E4 /* Products */,
+				D1D616512BFCB5F600B9A42A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D11821472BFCAAC4002EC3E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D11821462BFCAAC4002EC3E4 /* GeoGameLP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D11821482BFCAAC4002EC3E4 /* GeoGameLP */ = {
+			isa = PBXGroup;
+			children = (
+				D118214B2BFCAAC4002EC3E4 /* SceneDelegate.swift */,
+				D11821492BFCAAC4002EC3E4 /* AppDelegate.swift */,
+				D1170DF42BFCCFE300B0899D /* ViewController.swift */,
+				D118214F2BFCAAC4002EC3E4 /* Main.storyboard */,
+				D11821522BFCAAC5002EC3E4 /* Assets.xcassets */,
+				D11821542BFCAAC5002EC3E4 /* LaunchScreen.storyboard */,
+				D11821572BFCAAC5002EC3E4 /* Info.plist */,
+				D1170DF62BFCD17300B0899D /* GoogleMapsPrivacy.bundle */,
+			);
+			path = GeoGameLP;
+			sourceTree = "<group>";
+		};
+		D1D616512BFCB5F600B9A42A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D11821452BFCAAC4002EC3E4 /* GeoGameLP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D118215A2BFCAAC5002EC3E4 /* Build configuration list for PBXNativeTarget "GeoGameLP" */;
+			buildPhases = (
+				D11821422BFCAAC4002EC3E4 /* Sources */,
+				D11821432BFCAAC4002EC3E4 /* Frameworks */,
+				D11821442BFCAAC4002EC3E4 /* Resources */,
+				D1C3B65F2BFE1DC8006DE0D5 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeoGameLP;
+			packageProductDependencies = (
+				D1D616552BFCCD6500B9A42A /* GoogleMaps */,
+				D1D616572BFCCD6500B9A42A /* GoogleMapsBase */,
+				D1D616592BFCCD6500B9A42A /* GoogleMapsCore */,
+				D1D6165B2BFCCD6500B9A42A /* GoogleMapsM4B */,
+				D1C3B6532BFE1CC6006DE0D5 /* AlamofireNetworkActivityLogger */,
+				D1C3B6662BFE1F2B006DE0D5 /* SVProgressHUD */,
+				D1C3B6702BFE3116006DE0D5 /* EasyAleert */,
+				D14192312BFE44CB009841FF /* Alamofire */,
+			);
+			productName = GeoGameLP;
+			productReference = D11821462BFCAAC4002EC3E4 /* GeoGameLP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D118213E2BFCAAC4002EC3E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					D11821452BFCAAC4002EC3E4 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = D11821412BFCAAC4002EC3E4 /* Build configuration list for PBXProject "GeoGameLP" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D118213D2BFCAAC4002EC3E4;
+			packageReferences = (
+				D1D616542BFCCD6500B9A42A /* XCRemoteSwiftPackageReference "ios-maps-sdk" */,
+				D1C3B6442BFE1C14006DE0D5 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				D1C3B6522BFE1CC6006DE0D5 /* XCRemoteSwiftPackageReference "AlamofireNetworkActivityLogger" */,
+				D1C3B6652BFE1F2B006DE0D5 /* XCRemoteSwiftPackageReference "SVProgressHUD" */,
+				D1C3B66F2BFE3116006DE0D5 /* XCRemoteSwiftPackageReference "easy-alert" */,
+			);
+			productRefGroup = D11821472BFCAAC4002EC3E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D11821452BFCAAC4002EC3E4 /* GeoGameLP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D11821442BFCAAC4002EC3E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1170DF72BFCD17300B0899D /* GoogleMapsPrivacy.bundle in Resources */,
+				D11821562BFCAAC5002EC3E4 /* LaunchScreen.storyboard in Resources */,
+				D11821532BFCAAC5002EC3E4 /* Assets.xcassets in Resources */,
+				D11821512BFCAAC4002EC3E4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D11821422BFCAAC4002EC3E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D118214A2BFCAAC4002EC3E4 /* AppDelegate.swift in Sources */,
+				D118214C2BFCAAC4002EC3E4 /* SceneDelegate.swift in Sources */,
+				D1170DF52BFCCFE300B0899D /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D118214F2BFCAAC4002EC3E4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D11821502BFCAAC4002EC3E4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D11821542BFCAAC5002EC3E4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D11821552BFCAAC5002EC3E4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D11821582BFCAAC5002EC3E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D11821592BFCAAC5002EC3E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D118215B2BFCAAC5002EC3E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LQ43TS27BL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GeoGameLP/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "AR game mode";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app requires access to your location while you are using it to provide accurate location-based services and enhance your experience.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ua.kpi.GeoGameLPG;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D118215C2BFCAAC5002EC3E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LQ43TS27BL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GeoGameLP/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "AR game mode";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app requires access to your location while you are using it to provide accurate location-based services and enhance your experience.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ua.kpi.GeoGameLPG;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D11821412BFCAAC4002EC3E4 /* Build configuration list for PBXProject "GeoGameLP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D11821582BFCAAC5002EC3E4 /* Debug */,
+				D11821592BFCAAC5002EC3E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D118215A2BFCAAC5002EC3E4 /* Build configuration list for PBXNativeTarget "GeoGameLP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D118215B2BFCAAC5002EC3E4 /* Debug */,
+				D118215C2BFCAAC5002EC3E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D1C3B6442BFE1C14006DE0D5 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = exactVersion;
+				version = 5.7.1;
+			};
+		};
+		D1C3B6522BFE1CC6006DE0D5 /* XCRemoteSwiftPackageReference "AlamofireNetworkActivityLogger" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/konkab/AlamofireNetworkActivityLogger";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.4.0;
+			};
+		};
+		D1C3B6652BFE1F2B006DE0D5 /* XCRemoteSwiftPackageReference "SVProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SVProgressHUD/SVProgressHUD";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.3.1;
+			};
+		};
+		D1C3B66F2BFE3116006DE0D5 /* XCRemoteSwiftPackageReference "easy-alert" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/bryanbarreto/easy-alert";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		D1D616542BFCCD6500B9A42A /* XCRemoteSwiftPackageReference "ios-maps-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googlemaps/ios-maps-sdk";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 8.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D14192312BFE44CB009841FF /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D1C3B6442BFE1C14006DE0D5 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		D1C3B6532BFE1CC6006DE0D5 /* AlamofireNetworkActivityLogger */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D1C3B6522BFE1CC6006DE0D5 /* XCRemoteSwiftPackageReference "AlamofireNetworkActivityLogger" */;
+			productName = AlamofireNetworkActivityLogger;
+		};
+		D1C3B6662BFE1F2B006DE0D5 /* SVProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D1C3B6652BFE1F2B006DE0D5 /* XCRemoteSwiftPackageReference "SVProgressHUD" */;
+			productName = SVProgressHUD;
+		};
+		D1C3B6702BFE3116006DE0D5 /* EasyAleert */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D1C3B66F2BFE3116006DE0D5 /* XCRemoteSwiftPackageReference "easy-alert" */;
+			productName = EasyAleert;
+		};
+		D1D616552BFCCD6500B9A42A /* GoogleMaps */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D1D616542BFCCD6500B9A42A /* XCRemoteSwiftPackageReference "ios-maps-sdk" */;
+			productName = GoogleMaps;
+		};
+		D1D616572BFCCD6500B9A42A /* GoogleMapsBase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D1D616542BFCCD6500B9A42A /* XCRemoteSwiftPackageReference "ios-maps-sdk" */;
+			productName = GoogleMapsBase;
+		};
+		D1D616592BFCCD6500B9A42A /* GoogleMapsCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D1D616542BFCCD6500B9A42A /* XCRemoteSwiftPackageReference "ios-maps-sdk" */;
+			productName = GoogleMapsCore;
+		};
+		D1D6165B2BFCCD6500B9A42A /* GoogleMapsM4B */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D1D616542BFCCD6500B9A42A /* XCRemoteSwiftPackageReference "ios-maps-sdk" */;
+			productName = GoogleMapsM4B;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D118213E2BFCAAC4002EC3E4 /* Project object */;
+}
