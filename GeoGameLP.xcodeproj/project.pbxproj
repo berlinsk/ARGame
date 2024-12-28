@@ -24,6 +24,8 @@
 		C4A423E02D1F9D62008A9A46 /* RequestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A423DF2D1F9D62008A9A46 /* RequestHelper.swift */; };
 		C4A423E22D1F9D7D008A9A46 /* AlamofireRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A423E12D1F9D7C008A9A46 /* AlamofireRequest.swift */; };
 		C4A423E42D1F9D8F008A9A46 /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A423E32D1F9D8F008A9A46 /* RequestManager.swift */; };
+		C4A423E92D1F9FBE008A9A46 /* GameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A423E82D1F9FBE008A9A46 /* GameVC.swift */; };
+		C4A423EB2D1FA104008A9A46 /* GameMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A423EA2D1FA104008A9A46 /* GameMapVC.swift */; };
 		D1170DF52BFCCFE300B0899D /* UIStoryboard&UIVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1170DF42BFCCFE300B0899D /* UIStoryboard&UIVC.swift */; };
 		D1170DF72BFCD17300B0899D /* GoogleMapsPrivacy.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D1170DF62BFCD17300B0899D /* GoogleMapsPrivacy.bundle */; };
 		D118214A2BFCAAC4002EC3E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11821492BFCAAC4002EC3E4 /* AppDelegate.swift */; };
@@ -72,6 +74,8 @@
 		C4A423DF2D1F9D62008A9A46 /* RequestHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestHelper.swift; sourceTree = "<group>"; };
 		C4A423E12D1F9D7C008A9A46 /* AlamofireRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireRequest.swift; sourceTree = "<group>"; };
 		C4A423E32D1F9D8F008A9A46 /* RequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
+		C4A423E82D1F9FBE008A9A46 /* GameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameVC.swift; sourceTree = "<group>"; };
+		C4A423EA2D1FA104008A9A46 /* GameMapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameMapVC.swift; sourceTree = "<group>"; };
 		D1170DF42BFCCFE300B0899D /* UIStoryboard&UIVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStoryboard&UIVC.swift"; sourceTree = "<group>"; };
 		D1170DF62BFCD17300B0899D /* GoogleMapsPrivacy.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleMapsPrivacy.bundle; sourceTree = "<group>"; };
 		D11821462BFCAAC4002EC3E4 /* GeoGameLP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoGameLP.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -107,8 +111,8 @@
 			children = (
 				C4A423B32D1F8F05008A9A46 /* Models */,
 				C4A423D92D1F9AC6008A9A46 /* URLBuilder.swift */,
+				C4A423E72D1F9F3B008A9A46 /* Base */,
 				C4A423E62D1F9DDC008A9A46 /* Requests */,
-				C4A423E52D1F9DCA008A9A46 /* Managers */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -137,23 +141,23 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
-		C4A423E52D1F9DCA008A9A46 /* Managers */ = {
-			isa = PBXGroup;
-			children = (
-				C4A423E32D1F9D8F008A9A46 /* RequestManager.swift */,
-			);
-			path = Managers;
-			sourceTree = "<group>";
-		};
 		C4A423E62D1F9DDC008A9A46 /* Requests */ = {
 			isa = PBXGroup;
 			children = (
 				C4A423DD2D1F9D18008A9A46 /* CharsRequest.swift */,
 				C4A423DB2D1F9D05008A9A46 /* ShopsRequest.swift */,
-				C4A423E12D1F9D7C008A9A46 /* AlamofireRequest.swift */,
-				C4A423DF2D1F9D62008A9A46 /* RequestHelper.swift */,
 			);
 			path = Requests;
+			sourceTree = "<group>";
+		};
+		C4A423E72D1F9F3B008A9A46 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				C4A423E12D1F9D7C008A9A46 /* AlamofireRequest.swift */,
+				C4A423E32D1F9D8F008A9A46 /* RequestManager.swift */,
+				C4A423DF2D1F9D62008A9A46 /* RequestHelper.swift */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 		D118213D2BFCAAC4002EC3E4 = {
@@ -179,6 +183,8 @@
 				D118214B2BFCAAC4002EC3E4 /* SceneDelegate.swift */,
 				D11821492BFCAAC4002EC3E4 /* AppDelegate.swift */,
 				D1170DF42BFCCFE300B0899D /* UIStoryboard&UIVC.swift */,
+				C4A423E82D1F9FBE008A9A46 /* GameVC.swift */,
+				C4A423EA2D1FA104008A9A46 /* GameMapVC.swift */,
 				C4A423B52D1F8F2E008A9A46 /* Helpers */,
 				C4A423B12D1F8EEC008A9A46 /* Networking */,
 				D118214F2BFCAAC4002EC3E4 /* Main.storyboard */,
@@ -292,10 +298,12 @@
 				C4A423CA2D1F9133008A9A46 /* UIImage.swift in Sources */,
 				C4A423BC2D1F8FD5008A9A46 /* ShopModel.swift in Sources */,
 				C4A423E02D1F9D62008A9A46 /* RequestHelper.swift in Sources */,
+				C4A423E92D1F9FBE008A9A46 /* GameVC.swift in Sources */,
 				C4A423DC2D1F9D05008A9A46 /* ShopsRequest.swift in Sources */,
 				D118214C2BFCAAC4002EC3E4 /* SceneDelegate.swift in Sources */,
 				C4A423BE2D1F8FEB008A9A46 /* ResponseModel.swift in Sources */,
 				C4A423DA2D1F9AC6008A9A46 /* URLBuilder.swift in Sources */,
+				C4A423EB2D1FA104008A9A46 /* GameMapVC.swift in Sources */,
 				C4A423C62D1F90E8008A9A46 /* CGPoint.swift in Sources */,
 				C4A423E22D1F9D7D008A9A46 /* AlamofireRequest.swift in Sources */,
 				C4A423DE2D1F9D18008A9A46 /* CharsRequest.swift in Sources */,
