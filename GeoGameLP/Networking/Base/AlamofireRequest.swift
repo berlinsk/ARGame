@@ -33,7 +33,7 @@ class AlamofireRequest: RequestManager {
             
             switch response.result {
             case .success(let v):
-                if ((response.response?.statusCode ?? 0) / 100 == 2) { //200, 201 ... 299
+                if ((response.response?.statusCode ?? 0) / 100 == 2) { 
                     completion(try? JSONDecoder().decode(T.self, from: v), nil, response.response?.statusCode)
                 } else {
                     let error: E? = try? JSONDecoder().decode(E.self, from: v)
