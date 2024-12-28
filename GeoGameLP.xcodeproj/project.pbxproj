@@ -37,6 +37,8 @@
 		C4A424012D203E64008A9A46 /* RegistrationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A424002D203E64008A9A46 /* RegistrationVC.swift */; };
 		C4A424032D203E9C008A9A46 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A424022D203E9C008A9A46 /* LoginVC.swift */; };
 		C4A424052D203EB6008A9A46 /* ForgotPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A424042D203EB6008A9A46 /* ForgotPasswordVC.swift */; };
+		C4A424082D2046E5008A9A46 /* AchievementsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A424072D2046E5008A9A46 /* AchievementsVC.swift */; };
+		C4A4240A2D20472F008A9A46 /* LoyaltyQRVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A424092D20472F008A9A46 /* LoyaltyQRVC.swift */; };
 		D1170DF52BFCCFE300B0899D /* UIStoryboard&UIVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1170DF42BFCCFE300B0899D /* UIStoryboard&UIVC.swift */; };
 		D1170DF72BFCD17300B0899D /* GoogleMapsPrivacy.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D1170DF62BFCD17300B0899D /* GoogleMapsPrivacy.bundle */; };
 		D118214A2BFCAAC4002EC3E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11821492BFCAAC4002EC3E4 /* AppDelegate.swift */; };
@@ -93,6 +95,8 @@
 		C4A424002D203E64008A9A46 /* RegistrationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RegistrationVC.swift; path = GeoGameLP/RegistrationVC.swift; sourceTree = SOURCE_ROOT; };
 		C4A424022D203E9C008A9A46 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		C4A424042D203EB6008A9A46 /* ForgotPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVC.swift; sourceTree = "<group>"; };
+		C4A424072D2046E5008A9A46 /* AchievementsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsVC.swift; sourceTree = "<group>"; };
+		C4A424092D20472F008A9A46 /* LoyaltyQRVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoyaltyQRVC.swift; sourceTree = "<group>"; };
 		D1170DF42BFCCFE300B0899D /* UIStoryboard&UIVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStoryboard&UIVC.swift"; sourceTree = "<group>"; };
 		D1170DF62BFCD17300B0899D /* GoogleMapsPrivacy.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleMapsPrivacy.bundle; sourceTree = "<group>"; };
 		D11821462BFCAAC4002EC3E4 /* GeoGameLP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoGameLP.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -211,6 +215,15 @@
 			path = Registration;
 			sourceTree = "<group>";
 		};
+		C4A424062D2046A6008A9A46 /* Achievements */ = {
+			isa = PBXGroup;
+			children = (
+				C4A424072D2046E5008A9A46 /* AchievementsVC.swift */,
+				C4A424092D20472F008A9A46 /* LoyaltyQRVC.swift */,
+			);
+			path = Achievements;
+			sourceTree = "<group>";
+		};
 		D118213D2BFCAAC4002EC3E4 = {
 			isa = PBXGroup;
 			children = (
@@ -234,6 +247,7 @@
 				D118214B2BFCAAC4002EC3E4 /* SceneDelegate.swift */,
 				D11821492BFCAAC4002EC3E4 /* AppDelegate.swift */,
 				D1170DF42BFCCFE300B0899D /* UIStoryboard&UIVC.swift */,
+				C4A424062D2046A6008A9A46 /* Achievements */,
 				C4A423FF2D203E46008A9A46 /* Registration */,
 				C4A423F32D203B1E008A9A46 /* Shops */,
 				C4A423F22D203B01008A9A46 /* Game */,
@@ -364,7 +378,9 @@
 				C4A423DA2D1F9AC6008A9A46 /* URLBuilder.swift in Sources */,
 				C4A423ED2D1FA27E008A9A46 /* ShopsVC.swift in Sources */,
 				C4A423EB2D1FA104008A9A46 /* GameMapVC.swift in Sources */,
+				C4A4240A2D20472F008A9A46 /* LoyaltyQRVC.swift in Sources */,
 				C4A423C62D1F90E8008A9A46 /* CGPoint.swift in Sources */,
+				C4A424082D2046E5008A9A46 /* AchievementsVC.swift in Sources */,
 				C4A423E22D1F9D7D008A9A46 /* AlamofireRequest.swift in Sources */,
 				C4A423DE2D1F9D18008A9A46 /* CharsRequest.swift in Sources */,
 				C4A423D62D1F92E1008A9A46 /* Treasure.swift in Sources */,
