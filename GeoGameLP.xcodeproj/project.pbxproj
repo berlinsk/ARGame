@@ -19,6 +19,11 @@
 		C4A423D62D1F92E1008A9A46 /* Treasure.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A423D52D1F92E1008A9A46 /* Treasure.swift */; };
 		C4A423D82D1F9459008A9A46 /* CALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A423D72D1F9459008A9A46 /* CALayer.swift */; };
 		C4A423DA2D1F9AC6008A9A46 /* URLBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A423D92D1F9AC6008A9A46 /* URLBuilder.swift */; };
+		C4A423DC2D1F9D05008A9A46 /* ShopsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A423DB2D1F9D05008A9A46 /* ShopsRequest.swift */; };
+		C4A423DE2D1F9D18008A9A46 /* CharsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A423DD2D1F9D18008A9A46 /* CharsRequest.swift */; };
+		C4A423E02D1F9D62008A9A46 /* RequestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A423DF2D1F9D62008A9A46 /* RequestHelper.swift */; };
+		C4A423E22D1F9D7D008A9A46 /* AlamofireRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A423E12D1F9D7C008A9A46 /* AlamofireRequest.swift */; };
+		C4A423E42D1F9D8F008A9A46 /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A423E32D1F9D8F008A9A46 /* RequestManager.swift */; };
 		D1170DF52BFCCFE300B0899D /* UIStoryboard&UIVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1170DF42BFCCFE300B0899D /* UIStoryboard&UIVC.swift */; };
 		D1170DF72BFCD17300B0899D /* GoogleMapsPrivacy.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D1170DF62BFCD17300B0899D /* GoogleMapsPrivacy.bundle */; };
 		D118214A2BFCAAC4002EC3E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11821492BFCAAC4002EC3E4 /* AppDelegate.swift */; };
@@ -62,6 +67,11 @@
 		C4A423D52D1F92E1008A9A46 /* Treasure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Treasure.swift; sourceTree = "<group>"; };
 		C4A423D72D1F9459008A9A46 /* CALayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CALayer.swift; sourceTree = "<group>"; };
 		C4A423D92D1F9AC6008A9A46 /* URLBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLBuilder.swift; sourceTree = "<group>"; };
+		C4A423DB2D1F9D05008A9A46 /* ShopsRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopsRequest.swift; sourceTree = "<group>"; };
+		C4A423DD2D1F9D18008A9A46 /* CharsRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharsRequest.swift; sourceTree = "<group>"; };
+		C4A423DF2D1F9D62008A9A46 /* RequestHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestHelper.swift; sourceTree = "<group>"; };
+		C4A423E12D1F9D7C008A9A46 /* AlamofireRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireRequest.swift; sourceTree = "<group>"; };
+		C4A423E32D1F9D8F008A9A46 /* RequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
 		D1170DF42BFCCFE300B0899D /* UIStoryboard&UIVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStoryboard&UIVC.swift"; sourceTree = "<group>"; };
 		D1170DF62BFCD17300B0899D /* GoogleMapsPrivacy.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleMapsPrivacy.bundle; sourceTree = "<group>"; };
 		D11821462BFCAAC4002EC3E4 /* GeoGameLP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoGameLP.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,6 +107,8 @@
 			children = (
 				C4A423B32D1F8F05008A9A46 /* Models */,
 				C4A423D92D1F9AC6008A9A46 /* URLBuilder.swift */,
+				C4A423E62D1F9DDC008A9A46 /* Requests */,
+				C4A423E52D1F9DCA008A9A46 /* Managers */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -123,6 +135,25 @@
 				C4A423CB2D1F914A008A9A46 /* Constants.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		C4A423E52D1F9DCA008A9A46 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				C4A423E32D1F9D8F008A9A46 /* RequestManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		C4A423E62D1F9DDC008A9A46 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				C4A423DD2D1F9D18008A9A46 /* CharsRequest.swift */,
+				C4A423DB2D1F9D05008A9A46 /* ShopsRequest.swift */,
+				C4A423E12D1F9D7C008A9A46 /* AlamofireRequest.swift */,
+				C4A423DF2D1F9D62008A9A46 /* RequestHelper.swift */,
+			);
+			path = Requests;
 			sourceTree = "<group>";
 		};
 		D118213D2BFCAAC4002EC3E4 = {
@@ -260,14 +291,19 @@
 				D118214A2BFCAAC4002EC3E4 /* AppDelegate.swift in Sources */,
 				C4A423CA2D1F9133008A9A46 /* UIImage.swift in Sources */,
 				C4A423BC2D1F8FD5008A9A46 /* ShopModel.swift in Sources */,
+				C4A423E02D1F9D62008A9A46 /* RequestHelper.swift in Sources */,
+				C4A423DC2D1F9D05008A9A46 /* ShopsRequest.swift in Sources */,
 				D118214C2BFCAAC4002EC3E4 /* SceneDelegate.swift in Sources */,
 				C4A423BE2D1F8FEB008A9A46 /* ResponseModel.swift in Sources */,
 				C4A423DA2D1F9AC6008A9A46 /* URLBuilder.swift in Sources */,
 				C4A423C62D1F90E8008A9A46 /* CGPoint.swift in Sources */,
+				C4A423E22D1F9D7D008A9A46 /* AlamofireRequest.swift in Sources */,
+				C4A423DE2D1F9D18008A9A46 /* CharsRequest.swift in Sources */,
 				C4A423D62D1F92E1008A9A46 /* Treasure.swift in Sources */,
 				D1170DF52BFCCFE300B0899D /* UIStoryboard&UIVC.swift in Sources */,
 				C4A423C02D1F904D008A9A46 /* RequestModel.swift in Sources */,
 				C4A423C42D1F9067008A9A46 /* ErrorModel.swift in Sources */,
+				C4A423E42D1F9D8F008A9A46 /* RequestManager.swift in Sources */,
 				C4A423C82D1F9120008A9A46 /* Double.swift in Sources */,
 				C4A423C22D1F905D008A9A46 /* CharModel.swift in Sources */,
 				C4A423D82D1F9459008A9A46 /* CALayer.swift in Sources */,
